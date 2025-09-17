@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.ControllerInicial">
+   <children>
+      <ImageView fx:id="telaPrincipal" fitHeight="721.0" fitWidth="1077.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/tela%20inicial.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoIniciar" fitHeight="56.0" fitWidth="243.0" layoutX="392.0" layoutY="576.0" onMouseClicked="#iniciar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20iniciar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoBinaria" fitHeight="59.0" fitWidth="208.0" layoutX="127.0" layoutY="272.0" onMouseClicked="#setCodificacao" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20binaria.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoManchester" fitHeight="59.0" fitWidth="208.0" layoutX="411.0" layoutY="271.0" onMouseClicked="#setCodificacao" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20manchester.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoManchesterDif" fitHeight="59.0" fitWidth="208.0" layoutX="689.0" layoutY="271.0" onMouseClicked="#setCodificacao" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20manchester%20dif.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoFechar" fitHeight="59.0" fitWidth="59.0" layoutX="946.0" layoutY="19.0" onMouseClicked="#fechar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20fechar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoContagemDeCaracteres" fitHeight="59.0" fitWidth="208.0" layoutX="109.0" layoutY="461.0" onMouseClicked="#setEnquadramento" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20contagem%20de%20caracteres.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoInsercaoDeBytes" fitHeight="59.0" fitWidth="208.0" layoutX="328.0" layoutY="458.0" onMouseClicked="#setEnquadramento" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20insercao%20de%20bytes.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoInsercaoDeBits" fitHeight="59.0" fitWidth="208.0" layoutX="543.0" layoutY="458.0" onMouseClicked="#setEnquadramento" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20insercao%20de%20bits.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoViolacaoCamadaFisica" fitHeight="59.0" fitWidth="208.0" layoutX="758.0" layoutY="459.0" onMouseClicked="#setEnquadramento" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20violacao%20camada%20fisica.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

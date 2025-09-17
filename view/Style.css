@@ -1,0 +1,17 @@
+.text-area {
+	-fx-background-color: #729B79;
+}
+
+.text-area .content {
+   -fx-background-color: #729B79;
+ }
+ 
+ .text-area:focused .content {
+	-fx-background-color: #729B79;
+	-fx-background-insets: 0;
+	-fx-background-radius: 0;
+}
+
+.text-field:focused .content {
+	-fx-background-color: white;
+}
